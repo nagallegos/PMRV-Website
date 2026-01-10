@@ -1,0 +1,25 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "This is a website for the Precision Mobile RV business in Amarillo, TX",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nagallegos/PMRV-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nagallegos/PMRV-Website/issues"
+  },
+  "homepage": "https://github.com/nagallegos/PMRV-Website#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "react-bootstrap-icons": "^1.11.6"
+  }
+}
