@@ -27,7 +27,7 @@ body {
 
 /* NAVBAR */
 .navbar {
-  background: #082a68;
+  background-image: linear-gradient(to bottom, #082a68 70%, #022355 100%);
   color: white;
   padding: 2px 6px;
   padding-top: 5px;
@@ -56,6 +56,7 @@ body {
 .nav-item a {
   color: white;
   padding: 2px 8px;
+  text-decoration: none;
 }
 .nav-item a:hover {
   color: rgb(229.5, 229.5, 229.5);
@@ -131,7 +132,7 @@ body {
 
 /* FOOTER */
 .footer {
-  background: #082a68;
+  background-image: linear-gradient(to top, #082a68 70%, #022355 100%);
   color: white;
 }
 
@@ -143,12 +144,16 @@ body {
 .thank-you-content h1 {
   color: #082a68;
 }
+.thank-you-content.nav-link:visited {
+  text-decoration: none;
+}
 
 /* LINKS */
 .btn-theme {
   background: #cd0103;
   border: none;
   color: white;
+  text-decoration: none;
 }
 .btn-theme:hover {
   background-color: rgb(154.2475728155, 0.7524271845, 2.2572815534);
