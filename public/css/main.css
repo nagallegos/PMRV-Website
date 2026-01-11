@@ -1,3 +1,4 @@
+@import "~bootsrap-icons/font/bootstrap-icons.css";
 /* VARIABLES */
 /* GLOBAL */
 body {
@@ -64,7 +65,7 @@ body {
 .hero {
   position: relative;
   width: 100%;
-  background: rgba(0, 0, 0, 0.7) url("/assets/images/logo.jpg") no-repeat center center/cover;
+  background: rgba(0, 0, 0, 0.7) url("/assets/images/cover-photo.png") no-repeat center center/cover;
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
@@ -134,26 +135,50 @@ body {
   color: white;
 }
 
+/* THANK YOU SECTION */
+.thank-you-content {
+  background-color: #d8d4d3;
+  color: #082a68;
+}
+.thank-you-content h1 {
+  color: #082a68;
+}
+
 /* LINKS */
 .btn-theme {
-  background: #7d0809;
+  background: #cd0103;
   border: none;
   color: white;
 }
 .btn-theme:hover {
-  background-color: rgb(77.0676691729, 4.9323308271, 5.5488721805);
+  background-color: rgb(154.2475728155, 0.7524271845, 2.2572815534);
   color: white;
-  text-decoration: none;
-  border-color: rgb(77.0676691729, 4.9323308271, 5.5488721805);
+  border-color: rgb(154.2475728155, 0.7524271845, 2.2572815534);
 }
 .btn-theme:focus {
-  background-color: #7d0809;
+  border-color: #cd0103;
   border: none;
   color: white;
 }
 .btn-theme:focus-visible {
-  background-color: #7d0809;
+  border-color: #cd0103;
   border: none;
+  color: white;
+}
+
+.social-links a {
+  color: #082a68;
+  font-size: 2rem;
+  margin: 0 10px;
+}
+.social-links a:hover {
+  color: rgb(4.3571428571, 22.875, 56.6428571429);
+}
+
+/* ICONS */
+.bi-tools,
+.bi-droplet,
+.bi-lightning-charge {
   color: white;
 }
 

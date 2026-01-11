@@ -15,6 +15,7 @@
     />
     <link rel="stylesheet" href="/css/main.css" />
   </head>
+
   <body>
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-light">
@@ -76,10 +77,10 @@
       <div class="container">
         <h2 class="text-center fw-bold mb-4">Our Services</h2>
         <div class="row g-4">
-          <div class="col-md-4">
+          <div class="col-sm-6 col-lg-3">
             <div class="card service-card h-100 shadow-sm">
               <div class="card-body text-center">
-                <i class="bi bi-tools fs-1 text-primary"></i>
+                <i class="bi bi-tools fs-1"></i>
                 <h5 class="card-title mt-3">General RV Repairs</h5>
                 <p class="card-text">
                   Electrical, plumbing, appliance diagnostics, and more.
@@ -87,10 +88,10 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-6 col-lg-3">
             <div class="card service-card h-100 shadow-sm">
               <div class="card-body text-center">
-                <i class="bi bi-droplet fs-1 text-primary"></i>
+                <i class="bi bi-droplet fs-1"></i>
                 <h5 class="card-title mt-3">Leak & Roof Repair</h5>
                 <p class="card-text">
                   Prevent leaks and damage with professional inspection and
@@ -99,14 +100,26 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-6 col-lg-3">
             <div class="card service-card h-100 shadow-sm">
               <div class="card-body text-center">
-                <i class="bi bi-lightning-charge fs-1 text-primary"></i>
+                <i class="bi bi-lightning-charge fs-1"></i>
                 <h5 class="card-title mt-3">Electrical & Systems</h5>
                 <p class="card-text">
                   AC/DC electrical work, battery checks, and RV systems
                   troubleshooting.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="card service-card h-100 shadow-sm">
+              <div class="card-body text-center">
+                <i class="bi bi-snow fs-1"></i>
+                <h5 class="card-title mt-3">Winterization</h5>
+                <p class="card-text">
+                  Protect your RV from freezing temperatures with complete
+                  winterization services.
                 </p>
               </div>
             </div>
@@ -134,32 +147,48 @@
             title="call-number"
             href="tel:+18066409833"
             class="btn btn-theme btn-sm mx-2"
-            ><i class="bi bi-telephone"></i
-          ></a>
+            ><i class="bi bi-telephone"></i> Call</a
+          >
           <a
             title="text-number"
             href="sms:+18066409833?body=Hello%20there!%0ACould%20you%20please%20provide%20more%20information%20about%20your%20RV%20services?"
             class="btn btn-theme btn-sm mx-2"
-            ><i class="bi bi-chat-right"></i
-          ></a>
+            ><i class="bi bi-chat-right"></i> Text</a
+          >
           <a
             title="email"
-            href="mailto:lukegarcia566@gmail.com"
+            href="mailto:precisionmobileservice.rv@gmail.com"
             class="btn btn-theme btn-sm mx-2"
-            ><i class="bi bi-envelope"></i
-          ></a>
+            ><i class="bi bi-envelope"></i> Email</a
+          >
         </p>
+        <hr class="my-4" />
+
+        <!-- SOCIAL LINKS -->
+        <p class="text-muted mb-4 text-center">
+          Connect with us on social media:
+        </p>
+        <div class="social-links d-flex justify-content-center gap-3">
+          <a
+            href="https://www.facebook.com/profile.php?id=61585736230087"
+            title="Facebook"
+            class="text-decoration-none fs-3"
+          >
+            <i class="bi bi-facebook"></i>
+          </a>
+        </div>
       </div>
     </section>
 
     <!-- CONTACT / SERVICE REQUEST -->
     <section id="contact" class="form-section py-5">
-      <div class="container card form-card shadow-sm p-4">
+      <div class="container card form-card shadow p-4">
         <h2 class="text-center fw-bold mb-4">Request Mobile RV Service</h2>
 
         <form
           name="rv-service-request"
           method="POST"
+          action="/thank-you"
           data-netlify="true"
           netlify-honeypot="bot-field"
           class="row g-3 needs-validation"
